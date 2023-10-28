@@ -1,0 +1,83 @@
+
+
+/* padding */
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom:6rem;
+}
+
+/* font-size */
+.fsp8 {
+    font-size: 0.8rem;
+}
+.fsp9 {
+    font-size: 0.9rem;
+}
+
+.fs1 {
+    font-size: 1rem;
+}
+
+.fs1p1 {
+    font-size: 1.1rem;
+}
+
+.fs1p2 {
+    font-size: 1.2rem;
+}
+
+.fs1p3 {
+    font-size: 1.3rem;
+}
+
+.fs1p4 {
+    font-size: 1.4rem;
+}
+
+.fs1p5 {
+    font-size: 1.5rem;
+}
+
+.fs1p6 {
+    font-size: 1.6rem;
+}
+
+.fs1p7 {
+    font-size: 1.7rem;
+}
+
+.fs1p8 {
+    font-size: 1.8rem;
+}
+
+.fs1p9 {
+    font-size: 1.9rem;
+}
+
+.fs2 {
+    font-size: 2rem;
+}
+
+.fs3 {
+    font-size: 3rem;
+}
+
+
+/* font-weight */
+.bolder {
+    font-weight:bolder;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* line-height */
+.lh-2 {
+    line-height: 1.2;
+}
+
+/* font-color */
+.fc1 {
+    color :#6c757d;
+}
