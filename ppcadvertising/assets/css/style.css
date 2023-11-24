@@ -1,0 +1,180 @@
+.bg2 {
+    background-color: #09101a;
+}
+
+
+/* Navbar */
+.mylogo {
+    width: 180px !important;
+}
+
+/* Button */
+.button {
+   
+    background-image: linear-gradient(180deg, #ff7f4d, #ec4066);
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    border: 2px solid #ffffff;   /* text-white-50 */
+    
+}
+
+.button:hover {
+    background-color: #0f1722;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    border: 2px solid #ffffff;
+    /* outline-color: #55e6a5;
+    outline-width: 5px; */
+}
+
+
+/* Footer */
+.bg3 {
+    background-color: #282c34;
+}
+
+.f-col1 {
+    color: #919191;
+}
+
+.bod-2 {
+    border: 1px solid #E4E1E1 !important;
+}
+
+
+.slider-line {
+	background-color: transparent;
+    border: 1px solid white;
+    opacity: 1;
+}
+
+.servicessection .slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.servicessection .slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1.4;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: 1;
+    color: rgb(255, 255, 255);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.servicessection .slick-dots li.slick-active button:before
+{
+    opacity: 1;
+    color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 1.4;
+}
+.servicessection #theDots {
+    margin-top: -32px;
+}
+
+.servicessection .slick-dots
+{
+    position: static;
+    bottom: -25px;
+
+    display: flex;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.servicessection .slick-dots
+{
+    position: static;
+    bottom: -25px;
+
+    display: flex;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.aboutussection .slick-dots {
+    position: static;
+    bottom: -25px;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+}
+
+.aboutussection .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 10px;
+}
+
+.form-bg {
+	background-image: linear-gradient(180deg, #ff7f4d, #ec4066);
+}
+
+.grad-bg {
+	background-image: linear-gradient(90deg, #ec4066, #ff7f4d);
+}
+
+.form-fld-bg-1 {
+	background-color: #ffffff2e;
+    border: none;
+	color: white;
+	font-size: 14px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #ffffff2e;
+    border-color: #86b6fe00;
+    outline: 0;
+    box-shadow: none;
+}
+
+.sec2-bg {
+	background-color: #eff0f1;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: white;
+    box-shadow: none
+}
