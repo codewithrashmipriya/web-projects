@@ -1,0 +1,223 @@
+*, body, html {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.body-bg {
+    background-color: #020021;
+}
+
+.bg2 {
+    background-color: #000028;
+}
+
+.footer-bg {
+    background-color: #030017;
+    padding: 0 30px;
+}
+
+/* Image as background */
+
+/* 1. network */
+.network-bg { 
+    background-image: url('/assets/img/network.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ 
+/* 2. World map */
+.map-bg {
+    background-image: url('/assets/img/worldmap-bg.png');
+    background-repeat: no-repeat;
+    background-position: 0% 45%;
+    background-size: contain;
+}
+
+
+/* navigation */
+.nav-link {
+    opacity: 1;
+    color: #ffffff;
+    margin-inline: 15px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+
+/* buttons */
+.btn-warning {
+    background-color: #ffae00;
+}
+
+.btn-outline-warning {
+    border-color: #ffae00;
+    color:#ffae00;
+}
+
+.btn-outline-warning:hover {
+    border-color: #ffae00;
+    color:#000000;
+    background-color: #ffae00;
+}
+
+
+
+/* font-color */
+.f-color1 {
+    color: #ffae00;
+}
+
+
+/* card */
+.card-bg {
+    background-color: #00002f;
+    border: 2px solid #ffae00;
+}
+
+/* card-icon*/
+.icon-size {
+    width: auto;
+    height: 60px;
+}
+
+
+/* feature */
+.feature-icon {
+    width: 50px;
+    height: auto;
+}
+
+.feature-padding {
+    padding-bottom: 470px;
+    padding-top: 20px;
+}
+
+
+/* fa fa icon background */
+.fafa-bg {
+    height: 50px;
+    width: 50px;
+    background-color: #ffae00;
+    border-radius: 50% !important;
+
+}
+
+/* custom bullet */
+.footer-bg ul {
+    list-style: none;
+  }
+  
+.footer-bg ul li::before {
+    content: ">";
+    color: #ffae00;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -3em;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+
+/* font-weight*/
+.fw-700 {
+    font-weight: 700; /* bold */   
+}
+
+.fw-600 {
+font-weight: 600;   /* semi-bold */
+}
+
+.fw-500 {
+    font-weight: 500; /* medium */
+}
+
+.fw-400 {
+    font-weight: 400; /* regular */
+}
+
+
+/* font-size */
+.fs-50 {
+font-size: 50px;
+}
+
+.fs-42 {
+    font-size: 42px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-21 {
+    font-size: 21px;
+} 
+
+.fs-18 {
+    font-size: 18px;
+} 
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+    .feature-padding {    padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .fafa-bg {
+        height: 30px;
+        width: 30px;
+        background-color: #ffae00;
+        border-radius: 50%;}
+        .fs-21 {
+            font-size: 14px;
+        }
+
+        .mtp{padding-top: 30px;}
+
+
+        .footer-bg {
+            background-color: #030017;
+            padding: 0;
+        }
+
+
+        .map-bg {
+            background-image: url(/assets/img/worldmap-bg.png);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;}
+
+  }
+
+  @media only screen and (max-width: 480px) {
+
+  .fs-50 {
+    font-size: 40px;
+}
+
+  }
