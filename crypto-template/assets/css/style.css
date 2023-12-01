@@ -22,7 +22,7 @@
 
 /* 1. network */
 .network-bg { 
-    background-image: url('crypto-template/assets/img/network.png');
+    background-image: url('web-projects/crypto-template/assets/img/network.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -30,7 +30,7 @@
  
 /* 2. World map */
 .map-bg {
-    background-image: url('crypto-template/assets/img/worldmap-bg.png');
+    background-image: url('web-projects/crypto-template/assets/img/worldmap-bg.png');
     background-repeat: no-repeat;
     background-position: 0% 45%;
     background-size: contain;
